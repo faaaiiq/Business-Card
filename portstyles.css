@@ -1,0 +1,52 @@
+.main{
+    background-color: #ddebf8;;
+    width: 600px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+
+    padding: 20px;
+}
+
+.image-img{
+    height: 300px;
+    width: 300px;
+    
+    border: 1px solid black;
+    /* border: 1px dotted blue; */
+}
+
+.Details{
+    display: flex;
+    flex-direction: column;
+    
+    font-size: medium;
+    height: 300px;
+    width: 300px;
+    /* border: 1px dotted blue;  */
+
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+.Details h1{
+    font-size: 40px;
+}
+.Details h2{
+    font-size: 24px;
+    color :cornflowerblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Details h3{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    
+}
+.Name{
+    font-style: italic;
+    font-size: larger   ;
+}
